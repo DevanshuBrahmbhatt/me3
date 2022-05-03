@@ -16,7 +16,7 @@ export const EMPTY_ADDRESS = '0x0000000000000000000000000000000000000000'
 export function concat(a: ByteArray, b: ByteArray): ByteArray {
   let out = new Uint8Array(a.length + b.length)
   for (let i = 0; i < a.length; i++) {
-    out[i] = a[i]
+    out[i] = a[i]0x5cBA00d45693214fE3857f2C0c7Dd9e78654d8f8
   }
   for (let j = 0; j < b.length; j++) {
     out[a.length + j] = b[j]
